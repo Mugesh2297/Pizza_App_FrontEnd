@@ -96,7 +96,7 @@ function Register() {
                 />
               </Form.Group>
 
-              <Button variant="danger" onClick={handleSignup}>
+              <Button variant="primary" onClick={handleSignup}>
                 {/* disabled={isLoading} */}
                 Register
               </Button>

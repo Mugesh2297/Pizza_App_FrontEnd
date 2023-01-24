@@ -44,7 +44,20 @@ function Pizza({ pizza }) {
   return (
     <>
       <Card
-        className="imageupload mb-4 cards mainCard">
+        className="imageupload mb-4 cards"
+        style={{
+          width: "21rem",
+          height:"auto",
+          marginTop: "30px",
+          objectFit: "cover",
+          borderRadius: "50px",
+          boxShadow: "black 12px 8px 12px",
+          backgroundColor: "white",
+          border: "1px solid black",
+
+
+        }}
+      >
         <Card.Img
         className="img-fluid mt-2"
           variant="top"
