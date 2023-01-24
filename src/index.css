@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cartscreen{
+  background-color: rgb(249, 242, 242);
+  padding-bottom: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+}
+
+.orderComponent{
+  background-color: rgb(249, 242, 242);
+  border-radius: 10px;
+}
+
+.adminButton{
+  background-color: rgb(249, 242, 242);
+}
+
+.mainButton{
+  align-content: center;
+  text-align: center;
+  margin-top: 40px;
+  justify-content: center;
+margin-left: 430px;
+}
+.adminmainbutton{
+  height: 400px;
+  width: 400px;
+}
+
+.userTable{
+  background-color: rgb(249, 242, 242);
+  width: 80%;
+}
+
+.pizzaTable{
+  margin: 50px;
+}
+
+.editpizza{
+  width:60%;
+  border-radius: 30px;
+}
+@media screen and (max-width: 992px){
+  .mainButton{
+    align-content: center;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+  margin-left: 90px;
+  }
+  .adminmainbutton{
+    height: 400px;
+    width: 150px;
+  }
+.pizzaAppmob{
+  text-align: center;
+}
+.priceArea{
+  margin-bottom: 20px;
+}
+.quantity{
+  margin-top: 20px;
+}
+}

@@ -1,0 +1,48 @@
+.d-flex{
+    margin-top: 40px;
+    
+}
+.form{
+width : 85%!important;
+}
+.loginForm{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width:45%;
+    margin-top: 80px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.inputlogin{
+    width: 100%;
+}
+
+.linktoregis{
+    color: #eac728;
+}
+
+.adminForm{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width:45%;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 992px){
+    .loginForm{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .form{
+        width : auto;
+        }
+}
