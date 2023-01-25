@@ -74,6 +74,13 @@ function AdminLogin() {
           <Col md={3}>
           </Col>
         </Row>
+        <div className="text-center">
+                <p className="">
+                  <strong>Test Account</strong>: admin@gmail.com <br />
+                  <strong>password</strong> : Mugesh@22
+                </p>
+
+              </div>
       </Container>
     </>
   );

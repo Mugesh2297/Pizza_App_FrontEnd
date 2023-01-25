@@ -82,8 +82,8 @@ function Login() {
               </div>
               <div className="text-center">
                 <p className="">
-                  <strong>Test Account</strong> : User@gmail.com <br />
-                  <strong>password</strong> : User@1234
+                  <strong>Test Account</strong>: kmugesh297@gmail.com <br />
+                  <strong>password</strong> : Mugesh@22
                 </p>
 
               </div>
